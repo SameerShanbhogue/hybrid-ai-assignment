@@ -1,0 +1,23 @@
+[
+  {
+    "customer_id": "C001",
+    "complaint_text": "The product arrived broken and support has ignored me for five days. I want a refund immediately.",
+    "customer_tenure": 14,
+    "previous_complaints": 3,
+    "image_available": true
+  },
+  {
+    "customer_id": "C002",
+    "complaint_text": "I want to know when my order will arrive. The tracking hasn't updated in 3 days.",
+    "customer_tenure": 8,
+    "previous_complaints": 0,
+    "image_available": false
+  },
+  {
+    "customer_id": "C003",
+    "complaint_text": "This is the third time I received the wrong item. I'm very frustrated and considering switching to a competitor.",
+    "customer_tenure": 22,
+    "previous_complaints": 4,
+    "image_available": true
+  }
+]
