@@ -1,0 +1,53 @@
+[
+  {
+    "customer_id": "C001",
+    "model_outputs": {
+      "classical_score": 0.78,
+      "cnn_score": 0.72,
+      "rnn_score": 0.86,
+      "final_score": 0.79,
+      "risk_level": "high"
+    },
+    "llm_explanation": {
+      "summary": "Customer reports a broken product and five days of ignored support requests.",
+      "recommended_action": "escalate_immediately",
+      "reason": "High risk score with strong indicators: product damage and support delay.",
+      "human_review_required": true,
+      "risk_notes": ["Broken product", "Support ignored", "Multiple previous complaints"]
+    }
+  },
+  {
+    "customer_id": "C002",
+    "model_outputs": {
+      "classical_score": 0.32,
+      "cnn_score": 0.28,
+      "rnn_score": 0.35,
+      "final_score": 0.32,
+      "risk_level": "low"
+    },
+    "llm_explanation": {
+      "summary": "Customer inquires about order tracking status, no product defect mentioned.",
+      "recommended_action": "auto_reply",
+      "reason": "Low risk score, standard tracking inquiry can be auto-resolved.",
+      "human_review_required": false,
+      "risk_notes": ["Tracking delay", "No product issue"]
+    }
+  },
+  {
+    "customer_id": "C003",
+    "model_outputs": {
+      "classical_score": 0.85,
+      "cnn_score": 0.68,
+      "rnn_score": 0.79,
+      "final_score": 0.79,
+      "risk_level": "high"
+    },
+    "llm_explanation": {
+      "summary": "Customer received wrong item for third time, threatening to leave.",
+      "recommended_action": "escalate_immediately",
+      "reason": "High risk due to repeated failures and churn threat.",
+      "human_review_required": true,
+      "risk_notes": ["Repeat issue", "Churn threat", "Frustration expressed"]
+    }
+  }
+]
